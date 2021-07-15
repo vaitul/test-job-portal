@@ -38,7 +38,7 @@ const Jobs = ({ data, error }) => {
             <div className="container-fluid m-0 p-0 ">
                 {/* Top header area which includes search control and top heading text */}
                 <div className="row">
-                    <div className="col-md-8 offset-md-2 col-xs-10 offset-xs-1 ">
+                    <div className="col-md-8 offset-md-2 col-xs-12 offset-xs-0 ">
                         <div className="main-container my-2 p-2">
                             <div className="heading-row">
                                 <div className="cover-box-content">
@@ -68,7 +68,7 @@ const Jobs = ({ data, error }) => {
                             )}
 
                             {/* This code generates cards of jobs */}
-                            <div className="row px-4 g-4">
+                            <div className="row  gy-3">
                                 {
                                     finalData.map((card, cardIndex) => (
                                         <div className="col-lg-6" key={card.jobId} >

@@ -6,7 +6,7 @@ const Toolbar = ({ value, onChange }) => {
             <div className="col">
                 <div className="form-check form-switch">
                     <input checked={value} onChange={e => onChange(e.target.checked)} className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
-                    <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Show only jobs which published in the last 7 days</label>
+                    <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Show only recently 7 days jobs</label>
                 </div>
             </div>
             <style jsx>
